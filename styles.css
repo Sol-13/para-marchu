@@ -4,17 +4,21 @@
 
 .bi-whatsapp {
     color: rgb(34, 151, 34);
-   }
+}
 
 .bi-instagram {
     color: rgb(221, 9, 9);
     padding-right: 2cm;
-    }
+}
 
 .bi-facebook {
     color: rgb(11, 11, 192);
     padding-right: 2cm;
-    }
+}
+
+a:visited {
+    color: #073649;
+}
 
 .body {
     font-family: 'Ibarra Real Nova', serif;
@@ -46,7 +50,7 @@
 .somos {
     font-family: 'Mate SC', serif;
     font-size: 1.5em;
-    text-decoration:none;
+    text-decoration: none;
     text-align: left;
 }
 
@@ -54,7 +58,7 @@
     font-family: 'Mate SC', serif;
     font-size: 1.8em;
     text-decoration: dotted;
-    text-transform:initial;
+    text-transform: initial;
     text-align: center;
 }
 
@@ -99,16 +103,15 @@
     width: 50%;
 }
 
-@media (max-width: 1200px) {
-    body {
-        font-size: 20px;
-    }
-
+body {
+    font-size: 20px;
+    background-color: #CFF2AC;
 }
 
 @media (max-width: 992px) {
     body {
         font-size: 16px;
+
     }
 
     .header {
@@ -121,31 +124,34 @@
         padding: 0px;
         margin-left: 0px;
 
+    } 
+ }
+
+    @media (max-width: 768px) {
+        .barranavegadora li {
+            display: list-item;
+            margin-right: 10px;
+            padding: 0px;
+            margin-left: 0px;
+        }
     }
 
 
-@media (max-width: 768px) {
-    .barranavegadora li {
-        display: list-item;
-        margin-right: 10px;
-        padding: 0px;
-        margin-left: 0px;
-    }
-}
+    @media (max-width: 576px) {
+        .sectiongrid {
+            grid-template-columns: 1fr
+        }
 
+        .ropa ul li img {
+            width: 10em;
+            height: 10em;
+        }
 
-@media (max-width: 576px) {
-    .sectiongrid {
-        grid-template-columns: 1fr
-    }
-
-    .ropa ul li img {
-        width: 10em;
-        height: 10em;
-    }
-
-    body {
-        font-size: 10px;
-    }
+        body {
+            font-size: 10px;
+        }
+        .sectionmain { 
+            display: flex;
+        }
 
 }
