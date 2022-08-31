@@ -1,0 +1,85 @@
+
+.tituloprincipal {
+    font-size: 5em;
+    text-align: center;
+    text-shadow: $colornav 5px 5px;
+}
+
+.segunda {
+    font-size: 2em;
+    text-decoration: dotted;
+    text-align: center;
+}
+
+.tegusto {
+    font-family: $font-mate;
+    font-size: 1.5em;
+    text-decoration: dotted;
+    text-align: center;
+}
+
+.somos {
+    font-family: $font-mate;
+    font-size: 1.5em;
+    text-decoration:none;
+    text-align: center;
+}
+
+.articulo {
+    font-family: $font-mate;
+    font-size: 1.8em;
+    text-decoration: dotted;
+    text-transform:initial;
+    text-align: center;
+}
+
+.ubicacion {
+    font-family: $font-mate;
+    font-size: 1.5625em;
+    text-decoration: dotted;
+    text-align: left;
+}
+
+.mainprendas {
+    width: 50em;
+}
+
+.colaboramos {
+    font-family: $font-mate;
+    font-size: 1.5em;
+    text-decoration: dotted;
+    text-align: left;
+}
+
+.alimento {
+    font-family: $font-mate;
+
+    ;
+    font-size: 2em;
+    text-decoration: dotted;
+    text-align: left;
+    margin: 1cm;
+}
+
+.footer {
+    background-color: #99D9F2;
+    justify-content: center;
+    align-items: center;
+}
+
+.creador {
+    background-color: $colornav;
+    font-size: 1.3em;
+}
+
+.carouselExampleDark {
+    width: 50%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
