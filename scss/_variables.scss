@@ -1,6 +1,25 @@
 $font-mate: 'Mate SC', serif;
 $font-ibarra : 'Ibarra Real Nova', serif;
 
+$form-floating-height: add(3.5rem, $input-height-border);
+$form-floating-line-height: 1.5;
+$form-floating-padding-x: 1rem;
+$form-floating-padding-y: 1rem;
+$card-color: rgb(70, 216, 143);
+$card-group-margin: 5em;   
+$carousel-control-color: $white;
+
+$nav-link-height:$font-size-base * $line-height-base + $nav-link-padding-y * 2;
+$navbar-brand-height: $navbar-brand-font-size * $line-height-base;
+$navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) * .5;
+$navbar-brand-margin-end: 1rem;
+
+$card-color: null;
+$card-bg: $white;
+$card-img-overlay-padding: $spacer;
+$card-group-margin: $grid-gutter-width * .5;
+
+
 @media (max-width: 1200px) {
     body {
         font-size: 20px;
@@ -52,12 +71,17 @@ $font-ibarra : 'Ibarra Real Nova', serif;
         font-size: 10px;
     }
 
-    .$grid-breakpoints {
-        xs: 0,
-        sm: 576px,
-        md: 768px,
-        lg: 992px,  
-        xl: 1200px,
-        xxl: 1400px,
+   }
+    
+ .navbar-expand {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+          $next: breakpoint-next($breakpoint, $grid-breakpoints);
+          $infix: breakpoint-infix($next, $grid-breakpoints);
+          } 
     }
-}
+
+
+      
+    
+            
+     

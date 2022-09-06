@@ -16,8 +16,13 @@
     padding-right: 2cm;
     }
 
+
+main {
+    padding: 20px;
+    background-color: rgb(41, 122, 41);
+}
 .body {
-    font-family: $font-ibarra
+    font-family: $font-ibarra;
     size: 10em;
     color: $colorbody;
 }
