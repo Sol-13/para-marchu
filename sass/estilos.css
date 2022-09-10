@@ -1,7 +1,10 @@
-body {
-  background-color: #F29BDB;
-  size: 50em;
-  color: rgb(0, 0, 0);
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Mate+SC&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.body {
+  font-family: "Ibarra Real Nova", serif;
+  background-color: #CFF2AC;
+  size: 10em;
+  color: rgb(12, 12, 12);
 }
 
 body .contenedor {
@@ -36,6 +39,8 @@ header hover {
 main {
   padding: 20px;
   background-color: #F29BDB;
+  font-family: "Mate SC", serif;
+  font-family: "Ibarra Real Nova", serif;
 }
 
 div {
@@ -53,6 +58,139 @@ ul {
 }
 ul li a {
   color: #F29BDB;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none;
+}
+
+.tituloprincipal {
+  font-size: 5em;
+  text-align: center;
+  text-shadow: rgb(46, 147, 214) 5px 5px;
+}
+
+.segunda {
+  font-size: 2em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: center;
+}
+
+.tegusto {
+  font-family: "Mate SC", serif;
+  font-size: 1.5em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: center;
+}
+
+.somos {
+  font-family: "Mate SC", serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: left;
+}
+
+.articulo {
+  font-family: "Mate SC", serif;
+  font-size: 1.8em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-transform: initial;
+  text-align: center;
+}
+
+.ubicacion {
+  font-family: "Mate SC", serif;
+  font-size: 1.5625em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: left;
+}
+
+.mainprendas {
+  width: 50em;
+}
+
+.colaboramos {
+  font-family: "Mate SC", serif;
+  font-size: 1.5em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: left;
+}
+
+.alimento {
+  font-family: "Mate SC", serif;
+  font-size: 2em;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-align: left;
+  margin: 1cm;
+}
+
+.footer {
+  background-color: #99D9F2;
+  justify-content: center;
+  align-items: center;
+}
+
+.creador {
+  background-color: #99D9F2;
+  font-size: 1.3em;
+}
+
+.carouselExampleDark {
+  width: 50%;
 }
 
 @media (max-width: 1200px) {
