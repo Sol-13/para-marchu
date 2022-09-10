@@ -1,0 +1,34 @@
+$form-floating-line-height: 1.5;
+
+header {
+    justify-content: space-between;
+    & hover {
+     background-color: #F29BDB ;
+}
+}
+
+main {
+  padding: 20px;
+  background-color:#F29BDB;
+  $font-mate: 'Mate SC', serif;
+  $font-ibarra: 'Ibarra Real Nova', serif; 
+}
+
+div {
+  background-color: #CFF2AC; 
+  p {
+     color: rgb(0, 0, 0) 
+     }
+
+  }
+  ul { 
+     display: flex;
+     width: 500px;
+     justify-content: space-evenly;
+     list-style: none;
+     li {
+        a {
+           color: #F29BDB;
+        }
+     }
+  }
