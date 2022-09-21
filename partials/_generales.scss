@@ -1,165 +1,55 @@
 $form-floating-line-height: 1.5;
 
 header {
-    justify-content: space-between;
-    & :hover {
-     background-color: #F29BDB ;
-}
+   justify-content: space-between;
+   & :hover {
+      background-color: #f29bdb;
+   }
 }
 
 main {
-  padding: 20px;
-  background-color:#F29BDB;
-  font-family: $font-mate;
-  font-family: $font-ibarra;
+   padding: 20px;
+   background-color: #f29bdb;
+   font-family: $font-ibarra;
 }
 
 div {
-  background-color: #CFF2AC; 
-  p {
-     color: rgb(0, 0, 0) 
-     }
-
-  }
-  ul { 
-     display: flex;
-     width: 500px;
-     justify-content: space-evenly;
-     list-style: none;
-     li {
-        a {
-           color: #F29BDB;
-        }
-     }
-  }
-
-  .field {
-   margin-bottom: 10px;
- }
- 
- .field label {
-   display: block;
-   font-size: 12px;
-   color: #777;
- }
- 
- .field input {
-   display: block;
-   min-width: 250px;
-   line-height: 1.5;
-   font-size: 14px;
- }
- 
- input[type="submit"] {
-   display: block;
-   padding: 6px 30px;
-   font-size: 14px;
-   background-color: #4460AA;
-   color: #fff;
-   border: none
- }
-
- .field {
-   margin-bottom: 10px;
- }
- 
- .field label {
-   display: block;
-   font-size: 12px;
-   color: #777;
- }
- 
- .field input {
-   display: block;
-   min-width: 500px;
-   line-height: 1.5;
-   font-size: 14px;
- }
- 
- .input[type="submit"] {
-   display: block;
-   padding: 6px 30px;
-   font-size: 14px;
-   background-color: #4460AA;
-   color: #fff;
-   border: none
- }
- 
- .tituloprincipal {
-   font-size: 5em;
-   text-align: center;
-   text-shadow: rgb(46, 147, 214) 5px 5px;
+   background-color: #cff2ac;
+   p {
+      color: rgb(0, 0, 0);
+   }
 }
 
-.segunda {
-   font-size: 2em;
-   text-decoration: dotted;
-   text-align: center;
+ul {
+   display: flex;
+   width: 500px;
+   justify-content: space-evenly;
+   list-style: none;
+   li {
+      a {
+         color: #f29bdb;
+      }
+   }
 }
 
-.tegusto {
-   font-family: $font-mate;
-   font-size: 1.5em;
-   text-decoration: dotted;
-   text-align: center;
+body {
+   .tituloprincipal {
+      text-shadow: rgb(46, 147, 214) 5px 5px;
+   }
+    
+   .carouselExampleDark {
+      width: 50%;
+   }
+
+   .form {
+      justify-content: center;
+      width: fit-content;
+}
 }
 
-.somos {
-   font-family: $font-mate;
-   font-size: 1.5em;
-   text-decoration:none;
-   text-align: left;
-}
-
-.articulo {
-   font-family: $font-ibarra;
-   font-size: 1.8em;
-   text-decoration: dotted;
-   text-transform:initial;
-   text-align: center;
-}
-
-.ubicacion {
-   font-family: $font-ibarra;
-   font-size: 1.5625em;
-   text-decoration: dotted;
-   text-align: left;
-}
-
-.colaboramos {
-   font-family: $font-ibarra;
-   font-size: 1.5em;
-   text-decoration: dotted;
-   text-align: left;
-}
-
-.alimento {
-   font-family: $font-ibarra;
-   font-size: 2em;
-   text-decoration: dotted;
-   text-align: left;
-   margin: 1cm;
-}
 
 .footer {
-   background-color: #99D9F2;
+   background-color: #99d9f2 ;
    justify-content: center;
    align-items: center;
-}
-
-.creador {
-   background-color: #99D9F2;
-   font-size: 1.3em;
-}
-
-.carouselExampleDark {
-   width: 50%;
-}
-
-.form {
-   justify-content: center;
-   width: fit-content;
-}
-
-
- 
+} 

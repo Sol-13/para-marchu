@@ -74,4 +74,52 @@
   .body {
     font-size: 15px;
   }
+}
+header {
+  justify-content: space-between;
+}
+header :hover {
+  background-color: #f29bdb;
+}
+
+main {
+  padding: 20px;
+  background-color: #f29bdb;
+  font-family: "Mate SC", serif;
+}
+
+div {
+  background-color: #cff2ac;
+}
+div p {
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+ul li a {
+  color: #f29bdb;
+}
+
+body .tituloprincipal {
+  text-shadow: rgb(46, 147, 214) 5px 5px;
+}
+body .carouselExampleDark {
+  width: 50%;
+}
+body .form {
+  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer {
+  background-color: #99d9f2;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=estilos.css.map */
