@@ -35,6 +35,7 @@ ul {
 body {
    .tituloprincipal {
       text-shadow: rgb(46, 147, 214) 5px 5px;
+      text-align: center;
    }
     
    .carouselExampleDark {
@@ -47,9 +48,13 @@ body {
 }
 }
 
+.mapa {
+   align-items: center;
+}
+
 
 .footer {
    background-color: #99d9f2 ;
    justify-content: center;
-   align-items: center;
+   align-items: right;
 } 

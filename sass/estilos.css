@@ -107,6 +107,10 @@ ul li a {
 
 body .tituloprincipal {
   text-shadow: rgb(46, 147, 214) 5px 5px;
+  text-align: center;
+  -webkit-text-size-adjust: 50em;
+     -moz-text-size-adjust: 50em;
+          text-size-adjust: 50em;
 }
 body .carouselExampleDark {
   width: 50%;
